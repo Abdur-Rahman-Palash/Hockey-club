@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey Club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/2166435234.js" crossorigin="anonymous"></script>
+<style>
+    .manrope-font {
+        font-family: "Manrope", sans-serif;
+      }
+      
+</style>
+</head>
+<body class="manrope-font">
+    <header class="w-11/12 mx-auto overflow-hidden">
+        <nav>
+              <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <a class="btn btn-ghost text-xl">Hockey <span class="text-[#FF4240]">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li  class="text-[#FF4240]"><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end space-x-3">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+        <!-- banner -->
+         <section>
+<div class="text-white bg-black px-3 py-3 w-96 rounded-lg absolute z-50 top-[300px] left-[820px] ">
+            <h4 class="font-bold">Meet all the heroes from the field</h4>
+            <p class="text-[#FFFFFF99] text-[16px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis <br> placerat dolor. Purus urna in sit nullam proin. </p>
+          </div>
+            <div class="carousel w-full relative lg:relative h-[400px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img
+                    src="./Images/1.png"
+                    class="w-full" />
+                  <div class="absolute top-[350px] flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                  </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img
+                    src="./Images/2.png"
+                    class="w-full" />
+                  <div class="absolute  top-[350px] flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+                  </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img
+                    src="./Images/3.png"
+                    class="w-full" />
+                  <div class="absolute  top-[350px] flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
+                  </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img
+                    src="./Images/4.png"
+                    class="w-full" />
+                  <div class="absolute  top-[350px] flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
+                  </div>
+                </div>
+              </div>
+         </section>
+    </header>
+    <main class="w-11/12 mx-auto"></main>
+    <footer></footer>
+</body>
+</html>
