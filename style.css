@@ -1,17 +1,17 @@
 .Junior-Program{
-    background-image: url(./Images/2.png);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./Images/2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .Teenager-Program{
-    background-image: url(./Images/3.png);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./Images/3.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .Professional-Program{
-    background-image: url(./Images/4.png);
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./Images/4.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
